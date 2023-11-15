@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #00aaff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#Informacion {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-right: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    display: inline-block;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p:nth-child(odd) {
+    background-color: #e0f0ff;
+}
+
+p:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.controls {
+    width: 300px;
+}
+
+input {
+    border: 1px solid #00a0e9;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30px;
+    background-color: #e6f7ff;
+}
+
+input:nth-child(odd) {
+    background-color: #e0f0ff;
+}
+
+input:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+    
+  }
+  
+  th {
+    background-color: #00a0e9;
+    color: white;
+    text-align: center;
+  }
+  
+  td{
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #e6f7ff;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #listo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0f0ff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#listo:hover {
+    background-color: #00aaff;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#regresar {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0f0ff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#regresar:hover {
+    margin-top: 10px;
+    background-color: #0be441;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+a[href*="actualizar"] {
+    background-color: #008000;
+}
+
+a[href*="actualizar"]:hover {
+    background-color: #90ee90;
+}
+
+a[href*="eliminar"] {
+    background-color: #800000;
+}
+
+a[href*="eliminar"]:hover {
+    background-color: #ff0000;
+}
